@@ -1,0 +1,20 @@
+{
+  "short_name": "Hivepath",
+  "name": "Hivepath Web App",
+  "icons": [
+    {
+      "src": "hivepath-logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "hivepath-logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

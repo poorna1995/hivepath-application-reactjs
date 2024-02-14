@@ -1,0 +1,21 @@
+.profileOverlay {
+  position: absolute;
+  right: 0;
+  height: 168px;
+  width: 168px;
+  background-color: transparent;
+  opacity: 0;
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profileOverlay:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: #a4939366;
+}
+.profileOverlay img {
+  height: 26px;
+  width: 26px;
+}

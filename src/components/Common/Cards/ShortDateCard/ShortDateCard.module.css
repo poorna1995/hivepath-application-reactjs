@@ -1,0 +1,28 @@
+.card {
+  /* border: 1px solid black; */
+  /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 0px 15px 4px rgba(72, 74, 158, 0.08);
+  border-radius: 5px;
+  text-align: center;
+  font-size: xx-small;
+  color: black !important;
+}
+.card p {
+  color: #333 !important;
+  /* color: #585858 !important; */
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.cardHead {
+  padding: 5px;
+  border-radius: 6px 6px 0 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.cardContent {
+  border-radius: 0 0 6px 6px;
+  /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); */
+}

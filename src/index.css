@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+input:focus-visible {
+  outline-color: #484a9e !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+.removeScrollBar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.removeScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+.suggested-session-list {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.suggested-session-list::-webkit-scrollbar {
+  display: none;
+}
+
+.MuiStepLabel-label {
+  margin-top: 0px !important;
+  font-size: 16px;
+  font-weight: 600 !important;
+}
+
+.rdw-dropdown-selectedtext {
+  font-weight: 500;
+}
+.rdw-dropdownoption-default {
+  font-weight: 500;
+}

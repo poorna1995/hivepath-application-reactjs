@@ -1,0 +1,14 @@
+.scrollRow {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 16px;
+  padding-left: 10px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  background-color: transparent;
+}
+
+.scrollRow::-webkit-scrollbar {
+  display: none;
+}

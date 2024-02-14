@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 16px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}

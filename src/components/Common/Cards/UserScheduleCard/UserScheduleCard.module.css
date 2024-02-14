@@ -1,0 +1,60 @@
+.card {
+  height: 100%;
+}
+.cardHead {
+  background: #595df6;
+  padding: 20px 10px 30px 10px;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+}
+
+.cardHead p {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.cardHead h3 {
+  padding-bottom: 15px;
+  font-size: 21px;
+}
+
+.cardContent {
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  padding: 5% 5% 5% 10%;
+  background: #ffffff;
+  /* height: 252px; */
+  height: 286px;
+}
+
+.detailCard {
+  padding: 0;
+}
+
+.detailCard h3 {
+  font-size: 18px;
+}
+
+.detailCard p {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+.detailCard svg {
+  margin-right: 5px;
+}
+.reviewSpan {
+  background: rgba(244, 244, 244, 1);
+  width: 100px;
+  height: 36px;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 8px;
+  font-size: 14px;
+}

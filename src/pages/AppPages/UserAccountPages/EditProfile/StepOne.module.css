@@ -1,0 +1,295 @@
+.formLabel {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -1%;
+  font-weight: bold;
+}
+
+.inputField {
+  width: 100%;
+}
+
+.inputField input {
+  height: 12px !important;
+  background-color: white;
+}
+
+.inputFieldError input {
+  border: 2px solid red !important;
+  border-radius: 5px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.inputFieldFat input {
+  height: 20px !important;
+  background-color: white;
+}
+
+.paperComponent {
+  /* margin-top: 30px; */
+  padding: 20px;
+  padding-left: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 50px 5px rgba(72, 74, 158, 0.06);
+  border-radius: 20px;
+}
+.customForm {
+  /* margin-top: 30px;
+  padding: 50px 50px 50px 25px;
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 50px 5px rgba(72, 74, 158, 0.06);
+  border-radius: 20px; */
+}
+.customForm label {
+  font-weight: bold !important;
+  margin-top: 10px;
+  margin-left: 25px;
+  color: black !important;
+}
+
+.customForm textarea {
+  width: 100%;
+  height: 150px;
+  padding: 5px 10px;
+  font-family: inherit;
+}
+
+.customForm2 label {
+  margin-left: 0;
+  font-weight: 500 !important;
+  color: black;
+}
+
+.paperComponentAddEd {
+  margin-top: 30px;
+  padding: 25px 50px 25px 25px;
+  border-radius: 10px;
+  width: 100%;
+}
+.paperComponentAddEd img {
+  height: 50px;
+  display: inline-block;
+}
+
+.profilePicture {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+/* .profilePicture:hover{
+	background-color: red;
+} */
+
+.profilePicture label {
+  margin: 0;
+}
+
+/* .profilePicture img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+} */
+.profilePicture > input {
+  display: none;
+}
+
+.profileOverlay {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  opacity: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+  margin-top: 0 !important;
+}
+.profileOverlay:hover {
+  opacity: 1;
+  cursor: pointer;
+  background-color: #a4939366;
+}
+.profileOverlay img {
+  height: 26px;
+  width: 26px;
+}
+
+.coverPicture {
+  height: 150px;
+  width: 100%;
+  border-radius: 5px;
+}
+.coverPicture img {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.cameraIcon {
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  width: 50px;
+  left: 0;
+  margin-left: 20px;
+  bottom: 0;
+}
+
+.coverHover {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 15;
+  position: absolute;
+}
+
+.coverHover:hover {
+  visibility: visible;
+  background-color: red;
+}
+
+.successDiv {
+  text-align: center;
+  padding: 50px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #feffe3;
+}
+
+.reviewContainer {
+  padding: 50px;
+  text-align: center;
+}
+
+.submitBox {
+  /* background: #f9fde7; */
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+}
+
+.suggestions {
+  color: #484a9e;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.footerContainer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 120px;
+}
+
+.footer {
+  background-color: white;
+}
+
+.errorText {
+  color: #b00020;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  text-align: left;
+  margin-top: 3px;
+  margin-right: 14px;
+  margin-bottom: 0;
+  margin-left: 14px;
+}
+
+.coverImageContainer {
+  /* position: absolute; */
+  /* z-index: 10; */
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* box-sizing: border-box; */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  /* min-height: 250px; */
+  /* min-width: 600px; */
+
+  /* top: 110%; */
+  /* right: 0; */
+}
+
+.imageCardTitle {
+  position: absolute;
+  bottom: 5px;
+  padding-left: 10px;
+  font-weight: 800;
+  color: white;
+  text-transform: capitalize;
+}
+
+.cardContainer {
+  width: 145px;
+  height: 95px;
+}
+
+.UPImageCard {
+  height: 100%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.UPImageCard img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.cardOverlay {
+  background: #93828273;
+  z-index: 111;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardOverlay img {
+  background: #02020273;
+  position: absolute;
+  z-index: 10;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.avatarContainer img {
+  width: 80px;
+  height: 80px;
+}
+
+.Beginner {
+  background: linear-gradient(129.8deg, #e6fff0 -1.49%, #e6f2fe 87.52%);
+}
+.Intermediate {
+  background: linear-gradient(95.04deg, #e9e9fc 0%, #fde7ed 96.07%);
+}
+.Advanced {
+  background: linear-gradient(129.8deg, #fffce6 -1.49%, #fee6ea 87.52%);
+}
+.Expert {
+  background: linear-gradient(129.8deg, #fffce6 -1.49%, #fee6ea 87.52%);
+}

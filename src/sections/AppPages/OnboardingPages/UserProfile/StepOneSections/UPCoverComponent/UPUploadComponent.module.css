@@ -1,0 +1,38 @@
+.uploadContainer {
+  width: 85%;
+  min-height: 175px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #fafafa;
+  border: 1px dashed #d6d6d6;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.uploadContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 0 !important;
+}
+
+.uploadContainer img {
+  height: 80px;
+}
+
+.uploadContainer span {
+  color: #4669b1;
+}
+
+.uploadContainer p {
+  color: #cccccc;
+  font-size: 10px;
+}
+
+.uploadContainer input {
+  display: none;
+}

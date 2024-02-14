@@ -1,0 +1,25 @@
+.sessionCardHead {
+  /* height: 120px; */
+
+  padding: 20px 10px;
+
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 50px rgba(72, 74, 158, 0.06);
+  border-radius: 15px;
+}
+
+.sessionCard {
+  max-height: 400px;
+  overflow-y: scroll;
+  line-height: 22px;
+}
+
+.sessionCard h6 {
+  font-size: 15px;
+}
+
+.cardItem {
+  background: rgba(255, 255, 255, 0.9);
+}
